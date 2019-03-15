@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Contador</string>
+    <string name="string_add">ADD</string>
+    <string name="string_entran">ENTRAN</string>
+    <string name="string_zero">0</string>
+    <string name="string_salen">SALEN</string>
+</resources>

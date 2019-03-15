@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salomoncastro.contador.MainActivity"
+    android:orientation="horizontal"
+    android:padding="@dimen/std_padding">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_entran"
+            android:textSize="@dimen/big_text"
+            android:textColor="@color/color_dark"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/big_paddingtop"/>
+
+        <TextView
+            android:id="@+id/entran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/big_text"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/big_paddingtop"/>
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/string_add"
+            android:textColor="@color/color_white"
+            android:background="@color/color_dark"
+            android:layout_marginTop="@dimen/big_paddingtop"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_salen"
+            android:textSize="@dimen/big_text"
+            android:textColor="@color/color_dark"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/big_paddingtop"/>
+
+        <TextView
+            android:id="@+id/salen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/big_text"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/big_paddingtop"/>
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/string_add"
+            android:textColor="@color/color_white"
+            android:background="@color/color_dark"
+            android:layout_marginTop="@dimen/big_paddingtop"/>
+
+    </LinearLayout>
+
+</LinearLayout>
